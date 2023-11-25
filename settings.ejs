@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Settings</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="settings-container">
+        <h2>User Settings</h2>
+        
+        <!-- Profile Information -->
+        <div class="section">
+            <h3>Profile Information</h3>
+            <form id="profileForm">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName"><br>
+                
+                <label for="lastName">Surname:</label>
+                <input type="text" id="lastName" name="lastName"><br>
+
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username"><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br>
+
+                <input type="submit" value="Update Profile">
+            </form>
+        </div>
+
+        <!-- Change Password -->
+        <div class="section">
+            <h3>Change Password</h3>
+            <form id="passwordForm">
+                <label for="oldPassword">Old Password:</label>
+                <input type="password" id="oldPassword" name="oldPassword"><br>
+
+                <label for="newPassword">New Password:</label>
+                <input type="password" id="newPassword" name="newPassword"><br>
+
+                <input type="submit" value="Change Password">
+            </form>
+        </div>
+
+        <!-- Account Preferences -->
+        <div class="section">
+            <h3>Account Preferences</h3>
+            <!-- Additional settings can be added here -->
+        </div>
+    </div>
+</body>
+</html>
